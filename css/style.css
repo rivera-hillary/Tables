@@ -1,3 +1,14 @@
+:root{
+    --wawandco:#1db0ea;
+    --icons-color:#1daeec;
+    --block:#ffffff;
+    --filter: #b3b5ba;
+    --cpd:#6F768B;
+    --rates: #3F51B5;
+    --byod: #027EB4;
+    --rwr: #EA6C3F;
+    --icons-1:#717271;
+}
 body {
     margin: 0 auto;
     display: flex;
@@ -36,14 +47,14 @@ header {
     height: 16px;
     font-size: 20.5px;
     margin-right: 10px;
-    color: #1db0ea;
+    color: var(--wawandco);
     font-family: 'Lato', sans-serif;
     align-items: center;
 }
 .fa-angle-down {
     width: 13px;
     height: 10px;
-    color: #1db0ea;
+    color: var(--icons-color);
 }
 .margin {
     margin-right: 572px;
@@ -52,6 +63,7 @@ header {
     display: flex;
     margin-right: 20px;
     border-right: 1px solid #e0e0e0;
+    color: var(--block);
 }
 .car {
     display: flex;
@@ -60,8 +72,7 @@ header {
     justify-content: center;
     align-items: center;
     border-radius: 50px;
-    background-color: #717271;
-    color: #ffffff;
+    background-color: var(--icons-1);
     margin-right: 7px;
 }
 .setting {
@@ -71,8 +82,7 @@ header {
     justify-content: center;
     align-items: center;
     border-radius: 50px;
-    background-color: #717271;
-    color: #ffffff;
+    background-color: var(--icons-1);
     margin-right: 7px;
 }
 .question {
@@ -82,14 +92,18 @@ header {
     justify-content: center;
     align-items: center;
     border-radius: 50px;
-    background-color: #1db0ea;
-    color: #ffffff;
+    background-color: var(--icons-color);
     margin-right: 20px;
 }
-.img {
+.icon-user-1 {
     display: flex;
-    width: 35px;
-    height: 35px;
+    width: 32px;
+    height: 32px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    background-color: var(--icons-color);
+    color: var(--block);
     margin-right: 7px;
 }
 .section-1 {
@@ -100,7 +114,7 @@ header {
     text-align: center;
     align-items: center;
     justify-content: center;
-    background-color: #ffffff;
+    background-color: var(--block);
     padding: 20px 0;
 }
 .buttons {
@@ -121,7 +135,7 @@ header {
     justify-content: center;
     border-radius: 4px;
     padding: 10px 12px;
-    background-color: #ffffff;
+    background-color: var(--block);
     color: #4A4A4A; ; 
 } 
 .button:hover {
@@ -145,7 +159,7 @@ header {
     box-sizing: border-box;
     border-radius: 4px;
     padding: 13px 14px 15px 14px;
-    background-color: #1daeec;
+    background-color: var(--icons-color);
     align-items: center;
     justify-content: center;
     font-family: 'Lato', sans-serif;
@@ -239,7 +253,7 @@ header {
     height: 46px;
     border-radius: 25px;
     margin-right: 20px;
-    background-color: #ffffff;
+    background-color: var(--block);
     align-items: center;
     border: 1px solid #e0e0e0;
 }
@@ -249,7 +263,7 @@ header {
     font-size: 21px;
     margin: 13px 12px;
     margin-right: 16px;
-    color: #1daeec;
+    color: var(--icons-color);
 }
 .filter-section {
     display: flex;
@@ -269,8 +283,8 @@ header {
     padding: 13px;
     justify-content: center;
     border-radius: 4px;
-    background-color: #b3b5ba;
-    color: #ffffff;
+    background-color: var(--filter);
+    color: var(--block);
 }
 .filter {
     display: flex;
@@ -289,7 +303,7 @@ header {
     height: 360px;
     border: 1px solid #e0e0e0;
     box-shadow: 0 2px 7px 0 rgba(76,81,91,0.12);
-    background-color: #ffffff;
+    background-color: var(--block);
     box-sizing: border-box;
     padding: 20px;
     justify-content: center;
@@ -428,14 +442,14 @@ header {
     font-size: 14px;
     margin-left: 3px;
     color: #6F768B;
-    background-color: #ffffff;
+    background-color: var(--block);
 }
 .block {
     display: flex;
     height: 94px;
     padding: 25px 30px;
     box-sizing: border-box;
-    background-color: #ffffff;
+    background-color: var(--block);
     border: 1px solid #e0e0e0;
     border-radius: 4px;
     margin-bottom: 10px;
@@ -466,7 +480,7 @@ header {
     font-size: 18px;
     margin: 0;
     margin-right: 10px;
-    color: #1daeec;
+    color: var(--icons-color);
     box-sizing: border-box;
 }
 .icon-cpd {
@@ -476,7 +490,7 @@ header {
     margin: 1px;
     margin-left: 10px;
     border-radius: 25px;
-    background-color: #6F768B;
+    background-color: var(--cpd);
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
@@ -486,7 +500,7 @@ header {
     width: 12px;
     height: 12px;
     font-size: 12px;
-    color: #ffffff;
+    color: var(--block);
 }
 .CPD {
     width: 25px;
@@ -494,7 +508,7 @@ header {
     margin: 0;
     margin-left: 5px;
     font-size: 11px;
-    color: #ffffff;
+    color: var(--block);
 }
 .Service-2 {
     display: flex;
@@ -522,7 +536,7 @@ header {
     font-size: 18px;
     margin: 0;
     margin-right: 42px;
-    color: #1daeec;
+    color: var(--icons-color);
     box-sizing: border-box;
 }
 .icon-rates {
@@ -532,7 +546,7 @@ header {
     margin: 1px;
     margin-left: 10px;
     border-radius: 25px;
-    background-color: #3F51B5;
+    background-color: var(--rates);
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
@@ -542,7 +556,7 @@ header {
     width: 12px;
     height: 12px;
     font-size: 12px;
-    color: #ffffff;
+    color: var(--block);
 }
 .RATES {
     width: 32px;
@@ -550,7 +564,7 @@ header {
     margin: 0;
     margin-left: 5px;
     font-size: 11px;
-    color: #ffffff;
+    color: var(--block);
 }
 .icon-user {
     display: flex;
@@ -559,7 +573,7 @@ header {
     margin: 1px;
     margin-left: 10px;
     border-radius: 25px;
-    background-color: #027EB4;
+    background-color: var(--byod);
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
@@ -569,7 +583,7 @@ header {
     width: 12px;
     height: 12px;
     font-size: 12px;
-    color: #ffffff;
+    color: var(--block);
 }
 .BYOD {
     width: 32px;
@@ -591,7 +605,7 @@ header {
     margin: 1px;
     margin-left: 10px;
     border-radius: 25px;
-    background-color: #EA6C3F;
+    background-color: var(--rwr);
     align-items: center;
     justify-content: center;
     box-sizing: border-box;
@@ -601,7 +615,7 @@ header {
     width: 12px;
     height: 12px;
     font-size: 12px;
-    color: #ffffff;
+    color: var(--block);
 }
 .RWR {
     width: 32px;
@@ -609,7 +623,7 @@ header {
     margin: 0;
     margin-left: 5px;
     font-size: 11px;
-    color: #ffffff;
+    color: var(--block);
 }
 .sales {
     display: flex;
@@ -628,7 +642,7 @@ header {
     font-size: 18px;
     margin: 0;
     margin-right: 13px;
-    color: #1daeec;
+    color: var(--icons-color);
     box-sizing: border-box;
 }
 .sales {
@@ -641,15 +655,6 @@ header {
     width: 322px;
     height: 27px;
     margin-bottom: 5px;
-}
-.p-sales {
-    display: flex;
-    height: 17px;
-    font-size: 18px;
-    margin: 0;
-    margin-right: 13px;
-    color: #1daeec;
-    box-sizing: border-box;
 }
 .users- {
     display: flex;
@@ -678,7 +683,7 @@ header {
     display: flex;
     width: 10px;
     height: 17px;
-    color: #1daeec;
+    color: var(--icons-color);
 }
 .p-devices {
     display: flex;
