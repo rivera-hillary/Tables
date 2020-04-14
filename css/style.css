@@ -1,14 +1,16 @@
 :root{
-    --wawandco:#1db0ea;
-    --icons-color:#1daeec;
+    --azul:#f04e4e;
     --block:#ffffff;
-    --filter: #b3b5ba;
-    --cpd:#6F768B;
-    --rates: #3F51B5;
-    --byod: #027EB4;
-    --rwr: #EA6C3F;
+    --filter: #666464;
+    --cpd:#666464;
+    --rates: #43B53F;
+    --byod: #B49802;
+    --rwr: #EA6F3F;
     --icons-1:#717271;
-}
+    --hover: #eacbcb;
+    --texto-oscuro:#333333;
+    --texto-claro:#6F768B;
+    }
 body {
     margin: 0 auto;
     display: flex;
@@ -47,14 +49,14 @@ header {
     height: 16px;
     font-size: 20.5px;
     margin-right: 10px;
-    color: var(--wawandco);
+    color: var(--azul);
     font-family: 'Lato', sans-serif;
     align-items: center;
 }
 .fa-angle-down {
     width: 13px;
     height: 10px;
-    color: var(--icons-color);
+    color: var(--azul);
 }
 .margin {
     margin-right: 572px;
@@ -92,7 +94,7 @@ header {
     justify-content: center;
     align-items: center;
     border-radius: 50px;
-    background-color: var(--icons-color);
+    background-color: var(--azul);
     margin-right: 20px;
 }
 .icon-user-1 {
@@ -102,7 +104,7 @@ header {
     justify-content: center;
     align-items: center;
     border-radius: 50px;
-    background-color: var(--icons-color);
+    background-color: var(--azul);
     color: var(--block);
     margin-right: 7px;
 }
@@ -139,9 +141,9 @@ header {
     color: #4A4A4A; ; 
 } 
 .button:hover {
-    background-color: #e2eff4;
-    color: #419ac2;
-    border: 2px solid #e2eff4; 
+    background-color: var(--hover);
+    color: #497faa;
+    border: 2px solid #eacbcb; 
 }
 .programs {width: 93px; height: 30px; align-items: center; margin-left: 0;}
 .orders {width: 74px; height: 30px; align-items: center;}
@@ -159,7 +161,7 @@ header {
     box-sizing: border-box;
     border-radius: 4px;
     padding: 13px 14px 15px 14px;
-    background-color: var(--icons-color);
+    background-color: var(--azul);
     align-items: center;
     justify-content: center;
     font-family: 'Lato', sans-serif;
@@ -168,7 +170,7 @@ header {
     width: 94px;
     height: 16px;
     display: flex;
-    color: #ffffff;
+    color: var(--block);
     text-decoration: none;
     font-size: 16px;
     margin-right:14px;
@@ -176,7 +178,7 @@ header {
 .add-p {
     display: flex;
     width: 13px;
-    color: #ffffff;
+    color: var(--block);
 }
 .section-2 {
     display: flex;
@@ -202,7 +204,7 @@ header {
     font-size: 14px;
     box-sizing: border-box;
     justify-content: center;
-    color: #6F768B; 
+    color: var(--texto-claro);
 } 
 .device {
     margin-left: 0;
@@ -217,7 +219,7 @@ header {
     font-size: 14px;
     box-sizing: border-box;
     justify-content: center;
-    color: #4A4A4A; 
+    color: var(--texto-oscuro);
 } 
 .second {
     display: flex;
@@ -235,14 +237,14 @@ header {
     margin: 0;
     margin-right: 13px;
     font-size: 24px;
-    color: #4A4A4A;
+    color: var(--texto-oscuro);
 }
 .p-programs {
     width: 68px;
     height: 13px;
     margin: 0;
     font-size: 16px;
-    color: #6F768B;
+    color: var(--texto-claro);
 }
 .box {
     display: flex;
@@ -263,7 +265,7 @@ header {
     font-size: 21px;
     margin: 13px 12px;
     margin-right: 16px;
-    color: var(--icons-color);
+    color: var(--azul);
 }
 .filter-section {
     display: flex;
@@ -429,7 +431,7 @@ header {
     margin: 0;
     box-sizing: border-box;
     border-radius: 4px;
-    background-color: #1daeec;
+    background-color: var(--azul);
     align-items: center;
     padding: 15px;
     justify-content: center;
@@ -441,7 +443,7 @@ header {
     height: 25px;
     font-size: 14px;
     margin-left: 3px;
-    color: #6F768B;
+    color: var(--texto-claro);
     background-color: var(--block);
 }
 .block {
@@ -480,7 +482,7 @@ header {
     font-size: 18px;
     margin: 0;
     margin-right: 10px;
-    color: var(--icons-color);
+    color: var(--azul);
     box-sizing: border-box;
 }
 .icon-cpd {
@@ -536,7 +538,7 @@ header {
     font-size: 18px;
     margin: 0;
     margin-right: 42px;
-    color: var(--icons-color);
+    color: var(--azul);
     box-sizing: border-box;
 }
 .icon-rates {
@@ -642,7 +644,7 @@ header {
     font-size: 18px;
     margin: 0;
     margin-right: 13px;
-    color: var(--icons-color);
+    color: var(--azul);
     box-sizing: border-box;
 }
 .sales {
@@ -665,7 +667,7 @@ header {
     height: 12px;
     font-size: 13px;
     margin: 0;
-    color: #6F768B;
+    color: var(--texto-claro);
 }
 .phone {
     display: flex;
@@ -683,7 +685,7 @@ header {
     display: flex;
     width: 10px;
     height: 17px;
-    color: var(--icons-color);
+    color: var(--azul)
 }
 .p-devices {
     display: flex;
@@ -691,12 +693,12 @@ header {
     font-size: 13px;
     margin: 0;
     margin-left: 5px;
-    color: #343434;
+    color: var(--texto-oscuro);
     box-sizing: border-box;
 }
 .verizon {
     display: flex;
-    color: #494949;
+    color: var(--texto-oscuro);
 }
 .TMobile {
     display: flex;
@@ -751,7 +753,7 @@ header {
 }
 .displaying {
     display: flex;
-    color: #707372;
+    color: var(--texto-claro);
     width: 1040px;
     margin: 0;
     margin-top: 7px;
@@ -783,7 +785,7 @@ header {
     font-size: 14px;
     margin: 0;
     margin-right: 15px;
-    color: #1daeec;
+    color: var(--azul);
 }
 .p-50 {
     display: flex;
@@ -816,7 +818,7 @@ header {
 .contact-us {
     display: flex;
     text-decoration: none;
-    color: #ffffff;
+    color: var(--block);
     width: 84px;
     height: 15px;
     margin: 0;
@@ -826,7 +828,7 @@ header {
 .research {
     display: flex;
     text-decoration: none;
-    color: #ffffff;
+    color: var(--block);
     width: 160px;
     height: 15px;
     margin: 0;
@@ -843,7 +845,7 @@ header {
 .corporate {
     display: flex;
     text-decoration: none;
-    color: #ffffff;
+    color: var(--block);
     width: 138px;
     height: 15px;
     margin: 0;
@@ -861,7 +863,7 @@ header {
 .privacy {
     display: flex;
     text-decoration: none;
-    color: #ffffff;
+    color: var(--block);
     width: 107px;
     height: 15px;
     margin: 0;
@@ -886,7 +888,7 @@ header {
 .terms {
     display: flex;
     text-decoration: none;
-    color: #ffffff;
+    color: var(--block);
     width: 87px;
     height: 15px;
     margin: 0;
@@ -903,7 +905,7 @@ header {
     height: 25px;
     margin-left: 159px;
 }
-.icon-decoration {text-decoration: none;color: #fff;}
+.icon-decoration {text-decoration: none;color: var(--block);}
 .facebook {
     width: 15px;
     height: 25px;
